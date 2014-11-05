@@ -75,6 +75,7 @@ class EntityGridoManager
 	 *
 	 * @param array $fieldWhitelist - strings of entity properties
 	 * @param bool $autoAddFilter
+	 * @param bool $autoAddSort
 	 */
 	public function addCols($fieldWhitelist=array(),$autoAddFilter=false,$autoAddSort=false)
 	{
