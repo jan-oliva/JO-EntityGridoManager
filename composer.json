@@ -1,0 +1,24 @@
+{
+    "name": "jo/entity-grido-manager",
+    "description": "Entity grido manager for grido/grid",
+	"type": "library",
+    "version": "0.1.0",
+    "keywords": ["nette","forms","doctrine","entity"],
+    "homepage": "https://github.com/jan-oliva/JO-EntityGridoManager",
+    "license": "proprietary",
+	"authors": [
+        {"name": "Jan Oliva", "email": "jan.oliva.jo@gmail.com"}
+    ],
+    "support": {
+        "email": "jan.oliva@jo.gmail.com"
+    },
+    "require": {
+        "php": ">=5.3",
+        "nette/nette" : "~2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "JO\\": ""
+        }
+    }
+}
